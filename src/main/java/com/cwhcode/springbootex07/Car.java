@@ -15,7 +15,7 @@ public class Car {
     private String brand;
 
     @NotNull
-    @Size(min=3, max=20)
+    @Size(min=1, max=20)
     private String model;
 
     @NotNull
@@ -23,7 +23,7 @@ public class Car {
     private String style;
 
     @NotNull
-    @Size(min=10, max=50)
+    @Size(min=3, max=50)
     private String description;
 
     public Car() {
